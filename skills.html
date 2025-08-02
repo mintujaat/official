@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mintu | Skills</title>
+  <link rel="stylesheet" href="skills.css">
+  <style>
+    /* Popup animation */
+    @keyframes fadeInScale {
+      0% {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .popup-content {
+      animation: fadeInScale 0.5s ease forwards;
+    }
+  </style>
+</head>
+<!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Mintu</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blogs</a></li>
+        <li><a href="contect.html" class="btn">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+<body>
+  <!-- Navigation -->
+  
+  <!-- Skills Section -->
+  <section class="skills-section">
+    <div class="container">
+      <h1 class="section-title">My <span>Skills</span></h1>
+      <p class="section-subtitle">Technologies I am learning and working with:</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML5</h3>
+          <p>Semantic and accessible web page structure creation.</p>
+        </div>
+        <div class="skill-card">
+          <h3>CSS3</h3>
+          <p>Modern layouts using Flexbox, Grid, and animations.</p>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>Interactive and dynamic frontend development.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Python</h3>
+          <p>Backend scripting and automation tasks.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Cybersecurity</h3>
+          <p>Learning ethical hacking and system protection techniques.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Git & GitHub</h3>
+          <p>Version control and collaboration with repositories.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Mintu. All rights reserved.</p>
+  </footer>
+
+  <!-- Pop-up Modal -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <h2>Welcome!</h2>
+      <p>Thanks for visiting my Skills page.</p>
+      <button onclick="closePopup()">Continue</button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
+
+    window.onload = function () {
+      const popup = document.getElementById('popup');
+      popup.style.display = 'flex';
+    };
+  </script>
+</body>
+</html>

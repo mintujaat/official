@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Projects - Mintu</title>
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+  <style>
+    body {
+      background-color: rgb(254, 222, 187);
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      color: #3d2b1f;
+      margin-bottom: 40px;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #fff5e0;
+      border-left: 6px solid #b74b4b;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-title {
+      font-size: 1.4rem;
+      color: #b74b4b;
+      margin-bottom: 10px;
+    }
+
+    .project-desc {
+      font-size: 1rem;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .btn-back {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .btn-back a {
+      background-color: #b74b4b;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .btn-back a:hover {
+      background-color: #913a3a;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .project-card {
+        padding: 15px;
+      }
+
+      .project-title {
+        font-size: 1.2rem;
+      }
+
+      .project-desc {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="600">
+    <h1>My Projects</h1>
+
+    <div class="projects-grid">
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="project-title"><marquee>Plus talk-secrate talk</marquee></div>
+        <div class="project-desc">Plus Talk: Secretly connect, chat anonymously, safe and private always.<button><a href="">Open</a></button></div>
+      </div>
+
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="project-title"><marquee>Project for Rssa computer center</marquee></div>
+        <div class="project-desc">Professional computer center website for learning, support, services, and growth.<button><a href="https://rssacomputercenter.github.io/computerandlibrary/">Open</a></button></div>
+      </div>
+
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="project-title"><marquee>AurorxShopping App</marquee></div>
+        <div class="project-desc">Aurorix: Smart, stylish e-commerce platform for shopping anytime, anywhere.<button><a href="https://mintujaat.github.io/auurox-testing/">Open</a></button></div>
+      </div>
+
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="project-title"><marquee>Weather indicater</marquee></div>
+        <div class="project-desc">Instant weather updates, real-time forecasts, simple and accurate weather checker.<button><a href="">Open</a></button></div>
+      </div>
+
+      <!-- ✅ Example: Add your custom project -->
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="project-title"><marquee>comeing soon!!</marquee></div>
+        <div class="project-desc">comeing soon!! comeing soon!! comeing soon!!<button><a href=""></a></button></div>
+      </div>
+<div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+  <div class="project-title"><marquee>comeing soon!!</marquee></div>
+  <div class="project-desc">comeing soon!!comeing soon!!comeing soon!!.<button><a href=""></a></button></div>
+</div>
+<div class="project-card" data-aos="zoom-in" data-aos-delay="500">
+  <div class="project-title"><marquee>comeing soon!!</marquee></div>
+  <div class="project-desc">comeing soon!!comeing soon!!comeing soon!!.<button><a href=""></a></button></div>
+</div>
+<div class="project-card" data-aos="zoom-in" data-aos-delay="500">
+  <div class="project-title"><marquee>comeing soon!!</marquee></div>
+  <div class="project-desc">comeing soon!!comeing soon!!comeing soon!!<button><a href=""></a></button></div>
+</div>
+<div class="project-card" data-aos="zoom-in" data-aos-delay="500">
+  <div class="project-title"><marquee>comeing soon!!</marquee></div>
+  <div class="project-desc">comeing soon!!comeing soon!!comeing soon!!.<button><a href=""></a></button></div>
+</div>
+    </div>
+
+    <div class="btn-back">
+      <a href="index.html">← Back to Home</a>
+    </div>
+  </div>
+
+  <!-- AOS Animation Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
