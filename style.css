@@ -15,7 +15,8 @@ body{
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(to right, rgb(255,255,255), rgb(254,215,173));
+    background-image: url(https://media.istockphoto.com/id/686305058/vector/photo-studio-room-empty-white-interior-vector-template-illustration-vector-illustration.jpg?s=612x612&w=0&k=20&c=rxfZaiLcaIsf9peQDbzitSRCAFgtL3NGGUEM-7lYLiM=);
+    background-size: cover;
 }
 
 nav{
