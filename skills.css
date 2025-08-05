@@ -7,8 +7,9 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: rgb(254, 222, 187); /* New peach background */
-  color: #333;
+background-image: url(https://image.slidesdocs.com/responsive-images/slides/19-blue-employee-work-communication-skills-training-powerpoint-background_1f57bf4a7a__960_540.jpg);
+background-size: cover;
+  color: #a74a4aa4a;
   line-height: 1.6;
 }
 
@@ -27,7 +28,7 @@ body {
 .logo {
   font-size: 1.5em;
   font-weight: bold;
-  color: #333;
+  color: #9f0bf5;
 }
 
 .nav-links {
@@ -37,7 +38,7 @@ body {
 }
 
 .nav-links li a {
-  color: #333;
+  color: #020202;
   text-decoration: none;
   padding: 8px 15px;
   border-radius: 20px;
@@ -46,13 +47,13 @@ body {
 
 .nav-links li a:hover,
 .nav-links li .active {
-  background-color: #333;
+  background-color: #22fafa;
   color: #fedef0;
 }
 
 /* Buttons */
 .btn {
-  background-color: #333;
+  background-color: #8231ec;
   color: #fedef0;
   padding: 8px 15px;
   border-radius: 25px;
@@ -61,7 +62,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #111;
+  background-color: #b3487d;
   color: #fff;
 }
 
